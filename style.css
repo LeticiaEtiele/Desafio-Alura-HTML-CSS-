@@ -1,0 +1,25 @@
+body{
+	padding:0;
+	margin:0;
+}
+		
+nav{
+	width: 100%;
+	display: flex; /* alinhar os itens do menu na frente do logo */
+	position: fixed;
+	background-color: #00ff;
+	z-index: 99;
+}
+
+nav a {
+        color: #fff;
+      	margin: auto 20px auto 40px;
+        text-decoration: none; <!--tirar o sublinhado-->
+        font-weight: bold;
+}
+		
+nav li{
+        float: left; /* alinhar os itens "li" na mesma linha e a esquerda */
+        list-style: none;
+        margin-left: 20px;
+}
