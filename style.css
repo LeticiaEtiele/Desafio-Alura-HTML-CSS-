@@ -5,7 +5,7 @@ body{
 		
 nav{
 	width: 100%;
-	display: flex; /* alinhar os itens do menu na frente do logo */
+	display: flex; /* alinhar o menu na frente do logo */
 	position: fixed;
 	background-color: #00ff;
 	z-index: 99;
@@ -19,7 +19,12 @@ nav a {
 }
 		
 nav li{
-        float: left; /* alinhar os itens "li" na mesma linha e a esquerda */
+	float: left;  /* alinhar os itens "li" na mesma linha e a esquerda */
         list-style: none;
-        margin-left: 20px;
+        margin-left: 30px;
+}
+
+nav div{
+	margin-left: 50%;
+	margin-top: 20px;
 }
