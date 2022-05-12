@@ -7,7 +7,7 @@ nav{
 	width: 100%;
 	display: flex; /* alinhar o menu na frente do logo */
 	position: fixed;
-	background-color: #00ff;
+	background-color: Aquamarine;
 	z-index: 99;
 }
 
@@ -26,11 +26,14 @@ nav li{
 
 nav div{
 	margin-left: 50%;
-	margin-top: 20px;
+	margin-top: 10px;
 }
 
 button{
 	border-radius: 5px;
+	margin-left: 10px;
+	width: 90px;
+	height: 35px;
 }
 
 #btn_cadastrar {
