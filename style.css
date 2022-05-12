@@ -28,6 +28,11 @@ nav div{
 	margin-left: 50%;
 	margin-top: 20px;
 }
+
 button{
-	border-radius: 10px;
+	border-radius: 5px;
+}
+
+#btn_cadastrar {
+	background-color: red;
 }
